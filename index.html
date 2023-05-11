@@ -11,9 +11,10 @@
   <body>
     <section>
         <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-dark">Home</button>
-            <button type="button" class="btn btn-dark">About</button>
-            <button type="button" class="btn btn-dark">Contact</button>
+            <button type="button" class="btn btn-dark" onclick="scrolltoo('home')">Home</button>
+            <button type="button" class="btn btn-dark" onclick="scrolltoo('about')">About</button>
+            <button type="button" class="btn btn-dark" onclick="scrolltoo('contact')">Contact</button>
+            <button type="button" style="float:right" class="btn btn-dark" onclick="window.location.href='español.html';"">Español</button>
         </div>
     </section>
     <div class="vulture_security">
@@ -67,17 +68,12 @@
                 </div>
             </form>
         </section>
-        <!-- <script>
-            const form = document.querySelector("form")
-
-            form.addEventListener('submit', e => {
-                if (!form.checkValidity()){
-                    e.preventDefault()
-                }
-
-                form.clasList.add('was-validated')
-            })
-        </script> -->
+        <script>
+           function scrolltoo(content) {  
+            const element = document.getElementById(content);
+                element.scrollIntoView();
+            }
+        </script>
 </div>
    
 
