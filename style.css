@@ -15,7 +15,7 @@ body{
 .title {
     position: relative;
     transform: translateZ(-10px) scale(1);
-    max-width: 100%
+    max-width: 95%
 }
  .home h1 {
     font-family:'Oswald', sans-serif; 
