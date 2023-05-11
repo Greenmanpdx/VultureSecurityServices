@@ -12,10 +12,9 @@
 body{
     background: rgb(85, 3, 3);
 }
-.title {
-    position: relative;
-    transform: translateZ(-10px) scale(1);
-    max-width: 95%
+.img-fluid{
+   max-width: 100%;
+   height: auto;
 }
  .home h1 {
     font-family:'Oswald', sans-serif; 
